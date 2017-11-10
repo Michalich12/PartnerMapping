@@ -1,0 +1,16 @@
+REST API
+1. Create : 
+HTTP Method: POST, URL: /customer/mappings/ 
+
+2. Read : 
+HTTP Method: GET, URL: /customer/{customerId}
+HTTP Method: GET, URL: /customer/@me
+HTTP Method: GET, URL: /customer/{customerId}/mappings/partner/{clientID}/
+HTTP Method: GET, URL: /customer/{customerId}/mappings/
+
+3. Update : 
+HTTP Method: PUT, URL: URL: /customer/mappings/ 
+
+4. Delete : 
+HTTP Method: DELETE, URL: /customer/{customerId}/mappings/
+HTTP Method: DELETE, URL: /customer/{customerId}/mappings/partner/{clientID}/
